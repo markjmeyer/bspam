@@ -24,4 +24,4 @@ Westfall, Troendle, and Pennello (2010) Bootstrap-based model:
 
 Notes:
 - gbmp produces the test for simultaneious homogeneity described by Klingenberg & Agresti (2006), by default
-- int.hyp = TRUE implements the test to control family-wise error rate described by Westfall, Troendle, and Pennello (2010)
+- int.hyp = TRUE implements the intersection hypothesis described by Westfall, Troendle, and Pennello (2010)
