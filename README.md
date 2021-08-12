@@ -16,11 +16,11 @@ We also prepare code for two non-Bayesian methods compared in the manuscript.
 
 Klingenberg & Agresti (2006) GEE-based model:
 
-gbmp(X1, X2, family = gaussian(link = 'identity'), corstr = 'independence')
+> gbmp(X1, X2, family = gaussian(link = 'identity'), corstr = 'independence')
 
 Westfall, Troendle, and Pennello (2010) Bootstrap-based model:
 
-bootmmp(X1, X2, B, int.hyp = FALSE)
+> bootmmp(X1, X2, B, int.hyp = FALSE)
 
 Notes:
 - gbmp produces the test for simultaneious homogeneity described by Klingenberg & Agresti (2006), by default
