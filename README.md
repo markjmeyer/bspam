@@ -20,5 +20,5 @@ Westfall, Troendle, and Pennello (2010) Bootstrap-based model:
 bootmmp(X1, X2, B, int.hyp = FALSE)
 
 Notes:
-- gbmp produces the test for simultaneious homogeneity described by Klingenberg & Agresti (2006) by default
+- gbmp produces the test for simultaneious homogeneity described by Klingenberg & Agresti (2006), by default
 - int.hyp = TRUE implements the test to control family-wise error rate described by Westfall, Troendle, and Pennello (2010)
