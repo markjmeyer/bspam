@@ -9,7 +9,7 @@ All functions two matrices, X1 and X2, as arguments. X1 is an n x K matrix of th
 
 BSpAM model:
 
-bspam(X1, X2, B, burnin = NULL, penalty = c('ri', 't', 'la'), ptype = c('l2', 'pe', 'tn'), pvar = c('fl', 'hc', 'ig'), 
+> bspam(X1, X2, B, burnin = NULL, penalty = c('ri', 't', 'la'), ptype = c('l2', 'pe', 'tn'), pvar = c('fl', 'hc', 'ig'), 
       pvargroup = c('kspec', 'global'), prior = NULL, mu = NULL, up = 100, dots = up/10, verbose = TRUE)
 
 We also prepare code for two non-Bayesian methods compared in the manuscript.
