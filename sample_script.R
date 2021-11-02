@@ -20,12 +20,6 @@ model_r <- bspam(X1, X2, B, burnin = NULL, penalty = 'ri', pvar = 'hc', pvargrou
                  up = 2000, verbose = TRUE)
 summary(model_r)
 
-### PE ridge ###
-prpe    <- list(at = 1, bt = 1, as = 1, bs = 1, A = rep(0.5, K), ae = 2.8, be = 0.45)
-model_p <- bspam(X1, X2, B, burnin = NULL, penalty = 'ri', ptype = 'pe', pvar = 'hc', pvargroup = 'kspec', prior = prpe, mu = 0.5,
-                 up = 2000, verbose = TRUE)
-summary(model_p)
-
 ### Laplace ###
 prla    <- list(at = 1, bt = 1, A = rep(0.5, K), ae = 2.8, be = 0.45)
 model_l <- bspam(X1, X2, B, burnin = NULL, penalty = 'la', pvar = 'hc', pvargroup = 'kspec', prior = prla, mu = 0.5,
