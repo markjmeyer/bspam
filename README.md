@@ -27,5 +27,5 @@ The data, in the form of Table 1 from the manuscript, is in the object soc:
 > head(soc)
 
 Notes:
-- gbmp produces the test for simultaneious homogeneity described by Klingenberg & Agresti (2006), by default
+- gbmp produces the test for simultaneious homogeneity described by Klingenberg and Agresti (2006), by default
 - int.hyp = TRUE implements the intersection hypothesis described by Westfall, Troendle, and Pennello (2010)
